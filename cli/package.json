@@ -1,19 +1,16 @@
 {
   "name": "@app/cli",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
+    "clean": "rimraf dist node_modules",
     "dev": "ts-node --esm src/index.ts",
-    "build": "rimraf dist && tsc",
-    "start": "node dist/cli/src/index.js"
+    "mon": "nodemon",
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "@app/utils": "workspace:*"
-  },
-  "devDependencies": {
-    "@types/node": "^20.8.9",
-    "rimraf": "^5.0.5",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
   }
 }

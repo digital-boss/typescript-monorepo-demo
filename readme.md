@@ -1,0 +1,1 @@
+- https://github.com/bakeruk/modern-typescript-monorepo-example

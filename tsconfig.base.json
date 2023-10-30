@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "module": "ES2022",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "checkJs": true,
+
+    /* Basic Options */
+    "incremental": true,
+    "declaration": true,
+    "allowJs": true,
+    "noEmit": true,
+
+    /* Strict Type-Checking Options */
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "resolveJsonModule": true
+  }
+}

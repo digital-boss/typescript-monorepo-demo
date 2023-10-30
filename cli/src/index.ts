@@ -1,3 +1,3 @@
-import { match } from '@app/utils';
+import { greet, match } from '@app/utils';
 
-console.log(match());
+console.log(greet(), ' (2) ', match());

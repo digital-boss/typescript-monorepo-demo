@@ -1,14 +1,4 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "moduleResolution": "node",
-    "preserveWatchOutput": true,
-    "skipLibCheck": true,
-    "noEmit": false,
-    "emitDeclarationOnly": true,
-    "strict": true
-  },
-  "exclude": ["node_modules"]
+  "extends": "./tsconfig.base.json",
+  "include": ["**/*", ".*.js"]
 }
