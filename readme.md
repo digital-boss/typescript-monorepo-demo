@@ -10,3 +10,11 @@
 pnpm install
 ./test.sh
 ```
+
+
+## Running dev on only one workspace at a time
+
+To handle this, we can add a --filter flag to our command.
+
+    turbo dev --filter docs
+

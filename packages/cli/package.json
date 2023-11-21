@@ -10,7 +10,8 @@
     "dev": "ts-node --esm src/index.ts",
     "start": "node dist/index.js",
     "typecheck": "tsc",
-    "watch": "nodemon"
+    "watch": "nodemon",
+    "deps": "pnpm ls --depth Infinity"
   },
   "dependencies": {
     "@app/utils": "workspace:*"
