@@ -19,8 +19,8 @@
     "clean": {}
   },
   "globalDependencies": [
-    "tsconfig.base.json",
-    "tsconfig.build.json",
-    "tsconfig.json"
+    "common/tsconfig.base.json",
+    "common/tsconfig.build.json",
+    "common/tsconfig.json"
   ]
 }

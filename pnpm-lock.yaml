@@ -27,13 +27,13 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  cli:
+  packages/cli:
     dependencies:
       '@app/utils':
         specifier: workspace:*
         version: link:../utils
 
-  utils:
+  packages/utils:
     dependencies:
       matcher:
         specifier: ^5.0.0

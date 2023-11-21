@@ -1,11 +1,13 @@
 {
   "name": "@app/utils",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
     "clean": "rimraf dist node_modules",
-    "build": "rimraf dist && tsc -p tsconfig.build.json"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "matcher": "^5.0.0"
